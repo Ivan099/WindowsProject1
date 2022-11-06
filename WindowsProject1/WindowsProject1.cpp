@@ -382,5 +382,5 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		//Обробка повідомлень, які не оброблені користувачем
 		return DefWindowProc(hWnd, message, wParam, lParam);
 	}
-	return 1;
+	return 0;
 }
